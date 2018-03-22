@@ -24,6 +24,8 @@ bool ModuleAudio::Init() {
 		ret = false;
 	}
 
+	music[0] = App->audios->LoadMusic("Assets/Audio/04_Stage_1 -The Moon-Loop.ogg");
+
 	return ret;
 }
 

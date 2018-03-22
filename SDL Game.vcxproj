@@ -47,12 +47,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ExceptionHandling>false</ExceptionHandling>
-      <AdditionalIncludeDirectories>C:\Users\gerardmf2\Desktop\SDL3_Handout-master\SDL_image\include;C:\Users\gerardmf2\Desktop\SDL3_Handout-master\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\usuario\Desktop\SDL_Game-Test-master\SDL_image\include;C:\Users\usuario\Desktop\SDL_Game-Test-master\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>C:\Users\gerardmf2\Desktop\SDL3_Handout-master\SDL_image\libx86;C:\Users\gerardmf2\Desktop\SDL3_Handout-master\SDL\libx86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\usuario\Desktop\SDL_Game-Test-master\SDL_image\libx86;C:\Users\usuario\Desktop\SDL_Game-Test-master\SDL\libx86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

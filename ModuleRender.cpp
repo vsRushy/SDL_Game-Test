@@ -34,7 +34,7 @@ bool ModuleRender::Init()
 
 	// TODO 9: load a texture "test.png" to test is everything works well
 	
-	tex = App->textures->Load("Assets/Image/Background_Tiles_part1.png");
+	tex[0] = App->textures->Load("Assets/Image/Background_Tiles_part1.png");
 
 	return ret;
 }
@@ -49,7 +49,7 @@ update_status ModuleRender::PreUpdate()
 	
 	// TODO 10: Blit our test texture to check functionality
 
-	Blit(tex, SCREEN_WIDTH / 4, SCREEN_HEIGHT / 4, nullptr);
+	Blit(tex[0], SCREEN_WIDTH / 4, SCREEN_HEIGHT / 4, nullptr);
 
 	return update_status::UPDATE_CONTINUE;
 }
