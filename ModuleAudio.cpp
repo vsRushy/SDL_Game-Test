@@ -24,12 +24,17 @@ bool ModuleAudio::Init() {
 		ret = false;
 	}
 
+	// TODO: Loop to load and play the music
+
 	music[0] = App->audios->LoadMusic("Assets/Audio/04_Stage_1 -The Moon-Loop.ogg");
+	Mix_FadeInMusic(music[0], -1, 2000);
 
 	return ret;
 }
 
 bool ModuleAudio::CleanUp() {
+
+	Mix_FadeOutMusic(2000);
 
 	LOG("Freeing music and Mixer library");
 
